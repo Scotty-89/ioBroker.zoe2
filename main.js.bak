@@ -109,7 +109,7 @@ function globalInit(curStep) {
 		var kamereonrooturl = null;
 
 	  	if (statusCode != 200) {
-  			adapter.log.info('No valid response2 from Renault server, using default values');
+  			adapter.log.error('No valid response2 from Renault server, using default values');
 			
 			// Working default values
 			gigyarooturl = 'https://accounts.eu1.gigya.com';
